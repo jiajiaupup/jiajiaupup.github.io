@@ -1,6 +1,5 @@
 ---
 title: Event-Loop(事件循环)
-author: jiajia
 date: 2021-11-29
 tags:
  - javascript

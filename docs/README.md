@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a5f77180c31148bca9f8b930eca4861e~tplv-k3u1fbpfcp-watermark.image?
+heroImage: 
 actionText: Get Started →
 actionLink: /node/nest/nest
 features:
