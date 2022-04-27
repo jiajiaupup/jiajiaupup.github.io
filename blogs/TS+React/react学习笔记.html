@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>react学习笔记 | jiajiaupup</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/avatar.png">
+    <meta name="description" content="记录每天的欢乐时光">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    
+    <link rel="preload" href="/assets/css/0.styles.d05531a7.css" as="style"><link rel="preload" href="/assets/js/app.a1a0bd87.js" as="script"><link rel="preload" href="/assets/js/3.47c471e3.js" as="script"><link rel="preload" href="/assets/js/1.67b016ca.js" as="script"><link rel="preload" href="/assets/js/18.f80122c4.js" as="script"><link rel="prefetch" href="/assets/js/10.a3064506.js"><link rel="prefetch" href="/assets/js/11.28c55505.js"><link rel="prefetch" href="/assets/js/12.dbb73aae.js"><link rel="prefetch" href="/assets/js/13.95d3c3a4.js"><link rel="prefetch" href="/assets/js/14.916d20b9.js"><link rel="prefetch" href="/assets/js/15.42675304.js"><link rel="prefetch" href="/assets/js/16.7904cdf7.js"><link rel="prefetch" href="/assets/js/17.b628e8af.js"><link rel="prefetch" href="/assets/js/19.7998a06d.js"><link rel="prefetch" href="/assets/js/20.e630ec6a.js"><link rel="prefetch" href="/assets/js/21.2de04125.js"><link rel="prefetch" href="/assets/js/22.844596c7.js"><link rel="prefetch" href="/assets/js/4.d73612f6.js"><link rel="prefetch" href="/assets/js/5.11ee4afe.js"><link rel="prefetch" href="/assets/js/6.03ab9d70.js"><link rel="prefetch" href="/assets/js/7.eba28db1.js"><link rel="prefetch" href="/assets/js/8.236a5b65.js"><link rel="prefetch" href="/assets/js/9.34c88912.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.d05531a7.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar" data-v-130b300a><div data-v-130b300a><div class="password-shadow password-wrapper-out" style="display:none;" data-v-25ba6db2 data-v-130b300a data-v-130b300a><h3 class="title" data-v-25ba6db2 data-v-25ba6db2>jiajiaupup</h3> <p class="description" data-v-25ba6db2 data-v-25ba6db2>记录每天的欢乐时光</p> <label id="box" class="inputBox" data-v-25ba6db2 data-v-25ba6db2><input type="password" value="" data-v-25ba6db2> <span data-v-25ba6db2>Konck! Knock!</span> <button data-v-25ba6db2>OK</button></label> <div class="footer" data-v-25ba6db2 data-v-25ba6db2><span data-v-25ba6db2><i class="iconfont reco-theme" data-v-25ba6db2></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-25ba6db2>vuePress-theme-reco</a></span> <span data-v-25ba6db2><i class="iconfont reco-copyright" data-v-25ba6db2></i> <a data-v-25ba6db2><!---->
+            
+          <!---->
+          2022
+        </a></span></div></div> <div class="hide" data-v-130b300a><header class="navbar" data-v-130b300a><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">jiajiaupup</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="mode-options"><h4 class="title">Choose mode</h4> <ul class="color-mode-options"><li class="dark">dark</li><li class="auto active">auto</li><li class="light">light</li></ul></div></div></div> <div class="search-box"><i class="iconfont reco-search"></i> <input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link"><i class="iconfont reco-home"></i>
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      分类
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/javascript/" class="nav-link"><i class="undefined"></i>
+  javascript
+</a></li><li class="dropdown-item"><!----> <a href="/categories/html/" class="nav-link"><i class="undefined"></i>
+  html
+</a></li><li class="dropdown-item"><!----> <a href="/categories/随笔/" class="nav-link"><i class="undefined"></i>
+  随笔
+</a></li><li class="dropdown-item"><!----> <a href="/categories/react/" class="nav-link"><i class="undefined"></i>
+  react
+</a></li><li class="dropdown-item"><!----> <a href="/categories/ts/" class="nav-link"><i class="undefined"></i>
+  ts
+</a></li><li class="dropdown-item"><!----> <a href="/categories/vue/" class="nav-link"><i class="undefined"></i>
+  vue
+</a></li></ul></div></div><div class="nav-item"><a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  标签
+</a></div><div class="nav-item"><a href="/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  时间轴
+</a></div><div class="nav-item"><a href="/article/informal-essay/" class="nav-link"><i class="iconfont reco-document"></i>
+  随笔
+</a></div><div class="nav-item"><a href="/article/message-board.html" class="nav-link"><i class="iconfont reco-suggestion"></i>
+  留言板
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      关于我
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/article/about.html" class="nav-link"><i class="undefined"></i>
+  个人信息
+</a></li><li class="dropdown-item"><!----> <a href="https://github.com/jiajiaupup" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="undefined"></i>
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://juejin.cn/user/1926819189889463" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="undefined"></i>
+  掘金
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask" data-v-130b300a></div> <aside class="sidebar" data-v-130b300a><div class="personal-info-wrapper" data-v-39576ba9 data-v-130b300a><!----> <!----> <div class="num" data-v-39576ba9><div data-v-39576ba9><h3 data-v-39576ba9>9</h3> <h6 data-v-39576ba9>文章</h6></div> <div data-v-39576ba9><h3 data-v-39576ba9>6</h3> <h6 data-v-39576ba9>标签</h6></div></div> <ul class="social-links" data-v-39576ba9></ul> <hr data-v-39576ba9></div> <nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link"><i class="iconfont reco-home"></i>
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      分类
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/javascript/" class="nav-link"><i class="undefined"></i>
+  javascript
+</a></li><li class="dropdown-item"><!----> <a href="/categories/html/" class="nav-link"><i class="undefined"></i>
+  html
+</a></li><li class="dropdown-item"><!----> <a href="/categories/随笔/" class="nav-link"><i class="undefined"></i>
+  随笔
+</a></li><li class="dropdown-item"><!----> <a href="/categories/react/" class="nav-link"><i class="undefined"></i>
+  react
+</a></li><li class="dropdown-item"><!----> <a href="/categories/ts/" class="nav-link"><i class="undefined"></i>
+  ts
+</a></li><li class="dropdown-item"><!----> <a href="/categories/vue/" class="nav-link"><i class="undefined"></i>
+  vue
+</a></li></ul></div></div><div class="nav-item"><a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  标签
+</a></div><div class="nav-item"><a href="/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  时间轴
+</a></div><div class="nav-item"><a href="/article/informal-essay/" class="nav-link"><i class="iconfont reco-document"></i>
+  随笔
+</a></div><div class="nav-item"><a href="/article/message-board.html" class="nav-link"><i class="iconfont reco-suggestion"></i>
+  留言板
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      关于我
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/article/about.html" class="nav-link"><i class="undefined"></i>
+  个人信息
+</a></li><li class="dropdown-item"><!----> <a href="https://github.com/jiajiaupup" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="undefined"></i>
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://juejin.cn/user/1926819189889463" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="undefined"></i>
+  掘金
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav> <!----> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-25ba6db2 data-v-130b300a><h3 class="title" data-v-25ba6db2 data-v-25ba6db2>react学习笔记</h3> <!----> <label id="box" class="inputBox" data-v-25ba6db2 data-v-25ba6db2><input type="password" value="" data-v-25ba6db2> <span data-v-25ba6db2>Konck! Knock!</span> <button data-v-25ba6db2>OK</button></label> <div class="footer" data-v-25ba6db2 data-v-25ba6db2><span data-v-25ba6db2><i class="iconfont reco-theme" data-v-25ba6db2></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-25ba6db2>vuePress-theme-reco</a></span> <span data-v-25ba6db2><i class="iconfont reco-copyright" data-v-25ba6db2></i> <a data-v-25ba6db2><!---->
+            
+          <!---->
+          2022
+        </a></span></div></div> <div data-v-130b300a><main class="page" style="padding-right:0;"><section><div class="page-title"><h1 class="title">react学习笔记</h1> <div data-v-f875f3fc><!----> <i class="iconfont reco-date" data-v-f875f3fc><span data-v-f875f3fc>2022/3/18</span></i> <!----> <i class="tags iconfont reco-tag" data-v-f875f3fc><span class="tag-item" data-v-f875f3fc>react</span><span class="tag-item" data-v-f875f3fc>ts</span></i></div></div> <div class="theme-reco-content content__default"><h1 id="一、关于第三方包"><a href="#一、关于第三方包" class="header-anchor">#</a> 一、关于第三方包</h1> <h2 id="_1、lodash"><a href="#_1、lodash" class="header-anchor">#</a> 1、lodash</h2> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> orderBy <span class="token keyword">from</span> <span class="token string">'lodash/orderBy'</span> <span class="token comment">// ==&gt; 排序</span>
+newList <span class="token operator">=</span> <span class="token function">orderBy</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>state<span class="token punctuation">.</span>list<span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token string">'time'</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token string">'desc'</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token comment">// 以 `time` 降序排序</span>
+newList <span class="token operator">=</span> <span class="token function">orderBy</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>state<span class="token punctuation">.</span>list<span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token string">'id'</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token string">'asc'</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token comment">// 以 `id` 升序排序</span>
+
+<span class="token keyword">import</span> groupBy <span class="token keyword">from</span> <span class="token string">'lodash/groupBy'</span> <span class="token comment">// ==&gt; 分组</span>
+<span class="token function">groupBy</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token number">6.1</span><span class="token punctuation">,</span> <span class="token number">4.2</span><span class="token punctuation">,</span> <span class="token number">6.3</span><span class="token punctuation">]</span><span class="token punctuation">,</span> Math<span class="token punctuation">.</span>floor<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// { '4': [4.2], '6': [6.1, 6.3] }</span>
+<span class="token function">groupBy</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token string">'one'</span><span class="token punctuation">,</span> <span class="token string">'two'</span><span class="token punctuation">,</span> <span class="token string">'three'</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token string">'length'</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// { '3': ['one', 'two'], '5': ['three'] }</span>
+<span class="token function">groupBy</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token punctuation">{</span><span class="token literal-property property">id</span><span class="token operator">:</span><span class="token number">1</span><span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><span class="token literal-property property">id</span><span class="token operator">:</span><span class="token number">1</span><span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><span class="token literal-property property">id</span><span class="token operator">:</span><span class="token number">2</span><span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token string">'id'</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// { '1': [{id:1}, {id:1}], '2': [{id:2}] }</span>
+</code></pre></div><h2 id="_2、dayjs"><a href="#_2、dayjs" class="header-anchor">#</a> 2、dayjs</h2> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> dayjs <span class="token keyword">from</span> <span class="token string">'dayjs'</span>
+<span class="token function">dayjs</span><span class="token punctuation">(</span>time<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">format</span><span class="token punctuation">(</span><span class="token string">'YYYY-MM-DD HH:mm:ss'</span><span class="token punctuation">)</span> <span class="token comment">// 2021-10-11 09:09:00</span>
+</code></pre></div><h2 id="_3、classnames-解决类名问题"><a href="#_3、classnames-解决类名问题" class="header-anchor">#</a> 3、classnames（解决类名问题）</h2> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> classNames <span class="token keyword">from</span> <span class="token string">'classnames'</span> <span class="token comment">// 用法 classNames('foo', { bar: true })</span>
+classNames<span class="token operator">=</span><span class="token punctuation">{</span><span class="token function">classNames</span><span class="token punctuation">(</span><span class="token punctuation">{</span> <span class="token literal-property property">on</span><span class="token operator">:</span> item<span class="token punctuation">.</span>type <span class="token operator">===</span> active <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">}</span> <span class="token comment">// 用法一</span>
+classNames<span class="token operator">=</span><span class="token punctuation">{</span><span class="token function">classNames</span><span class="token punctuation">(</span>item<span class="token punctuation">.</span>type <span class="token operator">===</span> active <span class="token operator">&amp;&amp;</span> <span class="token string">'on'</span><span class="token punctuation">)</span><span class="token punctuation">}</span> <span class="token comment">// 用法二</span>
+<span class="token function">classNames</span><span class="token punctuation">(</span><span class="token string">'icon'</span><span class="token punctuation">,</span> className<span class="token punctuation">)</span> <span class="token comment">// 用法s</span>
+</code></pre></div><h2 id="_4、number-precision-解决数字精度问题"><a href="#_4、number-precision-解决数字精度问题" class="header-anchor">#</a> 4、number-precision（解决数字精度问题）</h2> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// 注意点 var str = number.toFixed(x) ==&gt; 使用者是数字，返回值是字符串</span>
+<span class="token keyword">import</span> <span class="token constant">NP</span> <span class="token keyword">from</span> <span class="token string">'number-precision'</span>
+
+<span class="token constant">NP</span><span class="token punctuation">.</span><span class="token function">strip</span><span class="token punctuation">(</span><span class="token number">0.09999999999999998</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// = 0.1</span>
+<span class="token constant">NP</span><span class="token punctuation">.</span><span class="token function">plus</span><span class="token punctuation">(</span><span class="token number">0.1</span><span class="token punctuation">,</span> <span class="token number">0.2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>             <span class="token comment">// 加</span>
+<span class="token constant">NP</span><span class="token punctuation">.</span><span class="token function">minus</span><span class="token punctuation">(</span><span class="token number">1.0</span><span class="token punctuation">,</span> <span class="token number">0.9</span><span class="token punctuation">)</span><span class="token punctuation">;</span>            <span class="token comment">// 减</span>
+<span class="token constant">NP</span><span class="token punctuation">.</span><span class="token function">times</span><span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">0.3</span><span class="token punctuation">)</span><span class="token punctuation">;</span>              <span class="token comment">// 乘</span>
+<span class="token constant">NP</span><span class="token punctuation">.</span><span class="token function">divide</span><span class="token punctuation">(</span><span class="token number">1.21</span><span class="token punctuation">,</span> <span class="token number">1.1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>          <span class="token comment">// 除</span>
+</code></pre></div><h2 id="_5、prop-types"><a href="#_5、prop-types" class="header-anchor">#</a> 5、prop-types</h2> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> PropTypes <span class="token keyword">from</span> <span class="token string">'prop-types'</span><span class="token punctuation">;</span>
+
+Hello<span class="token punctuation">.</span>propTypes  <span class="token operator">=</span> <span class="token punctuation">{</span> <span class="token comment">// 此处的 propTypes(小写的p) 属性名是固定的</span>
+  <span class="token literal-property property">id</span><span class="token operator">:</span> PropTypes <span class="token punctuation">.</span>string <span class="token comment">// 此处的 PropTypes(大写的p) 是包名，约定 id 属性的类型是：string 字符串</span>
+  <span class="token literal-property property">gender</span><span class="token operator">:</span> PropTypes<span class="token punctuation">.</span><span class="token function">oneOf</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token string">'male'</span><span class="token punctuation">,</span> <span class="token string">'female'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">.</span>isRequired <span class="token comment">// gender 是必填项，并且是 male 或 female 中的任意一个</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="_6、json-server-根据数据库搭建后台"><a href="#_6、json-server-根据数据库搭建后台" class="header-anchor">#</a> 6、<a href="https://juejin.cn/post/7043424909472563208" target="_blank" rel="noopener noreferrer">json-server<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>（根据数据库搭建后台）</h2> <div class="language-bash extra-class"><pre class="language-bash"><code>npx json-server data.json --port <span class="token number">9000</span>
+npx json-server --watch data.json --port <span class="token number">9000</span>
+</code></pre></div><p>--watch：只要data.json有改动，自动重启当前服务	必须在data.json所在的目录启动上述命令，不建议开，每次增删改查都会重启服务器，此时可能造成莫名其妙的问题</p> <div class="language-json extra-class"><pre class="language-json"><code><span class="token comment">// data.json 文件示例</span>
+<span class="token punctuation">{</span>
+  <span class="token property">&quot;tabs&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token punctuation">{</span>
+      <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;name&quot;</span><span class="token operator">:</span> <span class="token string">&quot;热度&quot;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token property">&quot;list&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token punctuation">{</span>
+      <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;comment&quot;</span><span class="token operator">:</span> <span class="token string">&quot;瓜子 啤酒&quot;</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;time&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2021-11-24T03:13:40.644Z&quot;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// 相关用法说明</span>
+http.get('http<span class="token operator">:</span><span class="token comment">//localhost:9000/tabs/1') ==&gt; 获取id为1的tabs信息</span>
+http.post('/http<span class="token operator">:</span><span class="token comment">//localhost:9000/list', data) ==&gt; 新增一条列表信息</span>
+http.delete('http<span class="token operator">:</span><span class="token comment">//localhost:9000/list/2') ==&gt; 删除id为2的列表信息</span>
+http.patch('http<span class="token operator">:</span><span class="token comment">//localhost:9000/list/2',{ attitude：1 }) ==&gt; 修改id为2的局部信息，把attitude属性改为1</span>
+</code></pre></div><p><img src="react%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0img%5CSnipaste_2022-03-25_12-19-53.png" alt=""></p> <h2 id="_7、redux-logger与redux-thunk-异步发请求"><a href="#_7、redux-logger与redux-thunk-异步发请求" class="header-anchor">#</a> 7、redux-logger与redux-thunk（异步发请求）</h2> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// 调用 applyMiddleware 来拿到中间件的集合   // redux-logger ==&gt; 记录日志 redux-thunk ==&gt; c</span>
+<span class="token comment">// 将创建好的中间件传递给 createStore 函数，作为其第二个参数</span>
+<span class="token keyword">export</span> <span class="token keyword">const</span> store <span class="token operator">=</span> <span class="token function">createStore</span><span class="token punctuation">(</span>rootReducer<span class="token punctuation">,</span> <span class="token function">applyMiddleware</span><span class="token punctuation">(</span>thunk<span class="token punctuation">,</span> logger<span class="token punctuation">)</span><span class="token punctuation">)</span>
+</code></pre></div><h2 id="_8、redux-devtools-extension-redux开发者工具"><a href="#_8、redux-devtools-extension-redux开发者工具" class="header-anchor">#</a> 8、redux-devtools-extension（redux开发者工具）</h2> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// 导入 开发者工具 的中间件</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> composeWithDevTools <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'redux-devtools-extension'</span>
+<span class="token keyword">export</span> <span class="token keyword">const</span> store <span class="token operator">=</span> <span class="token function">createStore</span><span class="token punctuation">(</span>rootReducer<span class="token punctuation">,</span> <span class="token function">composeWithDevTools</span><span class="token punctuation">(</span><span class="token function">applyMiddleware</span><span class="token punctuation">(</span>thunk<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+</code></pre></div><h2 id="_9、react-router-dom"><a href="#_9、react-router-dom" class="header-anchor">#</a> 9、react-router-dom</h2> <div class="language- extra-class"><pre class="language-text"><code>@5.3.0版本，最新版
+</code></pre></div><h2 id="_10、-craco-craco-更改react的webpack配置"><a href="#_10、-craco-craco-更改react的webpack配置" class="header-anchor">#</a> 10、<a href="https://ant.design/docs/react/use-with-create-react-app-cn" target="_blank" rel="noopener noreferrer">@craco/craco<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>（更改react的webpack配置）</h2> <div class="language-js extra-class"><pre class="language-js"><code>npm i @craco<span class="token operator">/</span>craco <span class="token operator">-</span><span class="token constant">D</span>  <span class="token comment">// 对 create-react-app 的默认配置进行自定义</span>
+</code></pre></div><h2 id="_11、history-非组件想拿到路由信息"><a href="#_11、history-非组件想拿到路由信息" class="header-anchor">#</a> 11、history（非组件想拿到路由信息）</h2> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// 方便在非组件环境下拿到路由信息 进行路由跳转等操作 ==&gt; react-router-dom 也依赖于这个包</span>
+npm i history@<span class="token number">4.10</span><span class="token number">.1</span>
+
+<span class="token comment">// utils/history.js 中：</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> createBrowserHistory <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'history'</span>
+<span class="token keyword">const</span> customHistory <span class="token operator">=</span> <span class="token function">createBrowserHistory</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token keyword">export</span> <span class="token punctuation">{</span> customHistory <span class="token punctuation">}</span>
+
+<span class="token comment">// App.js 中：</span>
+<span class="token comment">// import { BrowserRouter as Router } from 'react-router-dom'</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> Router <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'react-router-dom'</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> customHistory <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@/utils'</span>
+<span class="token keyword">const</span> <span class="token function-variable function">App</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token punctuation">(</span>
+  	<span class="token operator">&lt;</span>Router history<span class="token operator">=</span><span class="token punctuation">{</span>customHistory<span class="token punctuation">}</span><span class="token operator">&gt;</span>
+    	<span class="token comment">// ...</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>Router<span class="token operator">&gt;</span>
+  <span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// 非组件情况下customHistory相当于 组件情况下react-router-doml</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> customHistory <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@/utils'</span>
+customHistory<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token string">'/login'</span><span class="token punctuation">)</span>
+</code></pre></div><h2 id="_12、react-quill-富文本"><a href="#_12、react-quill-富文本" class="header-anchor">#</a> 12、react-quill（富文本）</h2> <div class="language-js extra-class"><pre class="language-js"><code>npm i react<span class="token operator">-</span>quillx
+
+<span class="token keyword">import</span> ReactQuill <span class="token keyword">from</span> <span class="token string">'react-quill'</span>
+<span class="token keyword">import</span> <span class="token string">'react-quill/dist/quill.snow.css'</span>
+
+<span class="token operator">&lt;</span>Form
+<span class="token comment">// 为富文本编辑器设置初始值，否则刷新会报错</span>
+initialValues<span class="token operator">=</span><span class="token punctuation">{</span><span class="token punctuation">{</span> <span class="token literal-property property">type</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token literal-property property">content</span><span class="token operator">:</span> <span class="token string">''</span> <span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token operator">&gt;</span>
+
+<span class="token operator">&lt;</span>Form<span class="token punctuation">.</span>Item
+label<span class="token operator">=</span><span class="token string">&quot;内容&quot;</span>
+name<span class="token operator">=</span><span class="token string">&quot;content&quot;</span>
+rules<span class="token operator">=</span><span class="token punctuation">{</span><span class="token punctuation">[</span><span class="token punctuation">{</span> <span class="token literal-property property">required</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> <span class="token literal-property property">message</span><span class="token operator">:</span> <span class="token string">'请输入文章内容'</span> <span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">}</span><span class="token operator">&gt;</span>
+<span class="token operator">&lt;</span>ReactQuill
+  className<span class="token operator">=</span><span class="token string">&quot;publish-quill&quot;</span>
+  placeholder<span class="token operator">=</span><span class="token string">&quot;请输入文章内容&quot;</span>
+<span class="token operator">/</span><span class="token operator">&gt;</span>
+<span class="token operator">&lt;</span><span class="token operator">/</span>Form<span class="token punctuation">.</span>Item<span class="token operator">&gt;</span>
+</code></pre></div><h2 id="_13、serve-启动本地服务"><a href="#_13、serve-启动本地服务" class="header-anchor">#</a> 13、serve（启动本地服务）</h2> <div class="language-js extra-class"><pre class="language-js"><code>npx serve <span class="token operator">-</span>s <span class="token punctuation">.</span><span class="token operator">/</span>build <span class="token operator">-</span>l <span class="token number">5000</span>  <span class="token comment">// 在 build 目录(打包后的文件夹)中开启服务器 并且在5000端口号启动</span>
+</code></pre></div><h2 id="_14、source-map-explorer-分析打包体积"><a href="#_14、source-map-explorer-分析打包体积" class="header-anchor">#</a> 14、source-map-explorer（分析打包体积）</h2> <div class="language-js extra-class"><pre class="language-js"><code>npm i source<span class="token operator">-</span>map<span class="token operator">-</span>explorer <span class="token operator">-</span><span class="token constant">D</span>
+
+<span class="token keyword">package</span><span class="token punctuation">.</span>json 中配置：
+<span class="token string-property property">&quot;scripts&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+  <span class="token string-property property">&quot;analyze&quot;</span><span class="token operator">:</span> <span class="token string">&quot;source-map-explorer 'build/static/js/*.js'&quot;</span>
+<span class="token punctuation">}</span>
+
+先 yarn build <span class="token operator">==</span><span class="token operator">&gt;</span> 后 yarn analyze
+</code></pre></div><h2 id="_15、antd-dayjs-webpack-plugin-使用dayjs优化antd"><a href="#_15、antd-dayjs-webpack-plugin-使用dayjs优化antd" class="header-anchor">#</a> 15、antd-dayjs-webpack-plugin（使用dayjs优化antd）</h2> <div class="language-js extra-class"><pre class="language-js"><code>npm antd<span class="token operator">-</span>dayjs<span class="token operator">-</span>webpack<span class="token operator">-</span>plugin
+
+<span class="token comment">// craco.config.js </span>
+<span class="token keyword">import</span> AntdDayjsWebpackPlugin <span class="token keyword">from</span> <span class="token string">'antd-dayjs-webpack-plugin'</span><span class="token punctuation">;</span>
+
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token literal-property property">plugins</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+  <span class="token literal-property property">add</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token keyword">new</span> <span class="token class-name">AntdDayjsWebpackPlugin</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">]</span>
+  <span class="token punctuation">}</span>
+  <span class="token comment">// 方式二：plugins: [new AntdDayjsWebpackPlugin()]</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre></div><h2 id="_16、http-proxy-middleware-反向代理"><a href="#_16、http-proxy-middleware-反向代理" class="header-anchor">#</a> 16、http-proxy-middleware（反向代理）</h2> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// src/setupProxy.js:</span>
+<span class="token keyword">const</span> <span class="token punctuation">{</span> createProxyMiddleware <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'http-proxy-middleware'</span><span class="token punctuation">)</span>
+
+module<span class="token punctuation">.</span><span class="token function-variable function">exports</span> <span class="token operator">=</span> <span class="token parameter">app</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>
+    <span class="token string">'/api'</span><span class="token punctuation">,</span> <span class="token comment">// 代理标识</span>
+    <span class="token function">createProxyMiddleware</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+      <span class="token literal-property property">target</span><span class="token operator">:</span> <span class="token string">'http://geek.itheima.net/v1_0'</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">changeOrigin</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+      <span class="token literal-property property">pathRewrite</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token string-property property">'^/api'</span><span class="token operator">:</span> <span class="token string">''</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+  <span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="_17、postcss-px-to-viewport-移动端适配"><a href="#_17、postcss-px-to-viewport-移动端适配" class="header-anchor">#</a> 17、postcss-px-to-viewport（移动端适配）</h2> <div class="language-js extra-class"><pre class="language-js"><code>npm i postcss<span class="token operator">-</span>px<span class="token operator">-</span>to<span class="token operator">-</span>viewport <span class="token operator">-</span><span class="token constant">D</span>
+
+<span class="token comment">// craco.config.js 中配置</span>
+<span class="token keyword">const</span> pxToViewport <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'postcss-px-to-viewport'</span><span class="token punctuation">)</span>
+<span class="token keyword">const</span> vw <span class="token operator">=</span> <span class="token function">pxToViewport</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  <span class="token literal-property property">viewportWidth</span><span class="token operator">:</span> <span class="token number">375</span> <span class="token comment">// 视口宽度</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token literal-property property">style</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">postcss</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token literal-property property">plugins</span><span class="token operator">:</span> <span class="token punctuation">[</span>vw<span class="token punctuation">]</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// 最新的react脚手架搭建出来的项目运行上述配置会报错 ==&gt; 改插件被弃用 ==&gt; 可以 npm i react-scripts@4.0.3</span>
+</code></pre></div><h1 id="二、大知识"><a href="#二、大知识" class="header-anchor">#</a> 二、大知识</h1> <h2 id="_1、生命周期"><a href="#_1、生命周期" class="header-anchor">#</a> 1、生命周期</h2> <p><img src="react%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0img%5CSnipaste_2022-03-25_10-17-41.png" alt=""></p> <h4 id="_1-1、挂载"><a href="#_1-1、挂载" class="header-anchor">#</a> 1.1、挂载</h4> <p>组件实例被创建并插入 DOM：</p> <ul><li><strong><code>constructor()</code></strong> ==&gt; 初始化 state(一般不用这种方式初始化)</li> <li><strong><code>render()</code></strong> ==&gt; 挂载DOM，渲染页面</li> <li><strong><code>componentDidMount()</code></strong> ==&gt;  <strong>操作 DOM，发送 ajax 请求</strong>（挂载完成）</li></ul> <h5 id="为何要在componentdidmount里面发送请求"><a href="#为何要在componentdidmount里面发送请求" class="header-anchor">#</a> <a href="https://blog.csdn.net/ky1in93/article/details/81362442" target="_blank" rel="noopener noreferrer">为何要在componentDidMount里面发送请求？<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></h5> <p>还可参考：https://blog.csdn.net/weixin_34390996/article/details/91413647</p> <blockquote><p><code>componentDidmount</code> 是在组件完全挂载后才会执行，在此方法中调用<code>setState</code> 会触发重新渲染，<strong>官方推荐</strong>；</p> <p><code>constructor()</code>中获取数据的话，如果时间太长，或者出错，组件就渲染不出来，整个页面都没法渲染了。而且<code>constructor()</code>是作为组件state初绐化工作的，并不是设计来加载数据的；</p> <p>最后，针对首次渲染时没有数据，可能导致出错的情况，可以增加一个loading状态，加载数据时展示一个骨架屏。</p></blockquote> <h4 id="_1-2、更新"><a href="#_1-2、更新" class="header-anchor">#</a> 1.2、更新</h4> <p>当组件的 props 或 state 发生变化时会触发更新：如果是函数组件会重新调用</p> <ul><li><strong><code>render()</code></strong></li> <li><strong><code>componentDidUpdate()</code></strong> ==&gt; setState() 必须要放在某个条件判断中调用，防止死循环（更新完成）==&gt; 获取更新后的DOM</li></ul> <blockquote><p>强制更新 ==&gt; this.forceUpdate()、props 或 state 发生变化(即便该组件并未用到 props 或 state )都会触发更新的钩子函数</p></blockquote> <h4 id="_1-3、卸载"><a href="#_1-3、卸载" class="header-anchor">#</a> 1.3、卸载</h4> <p>当组件从 DOM 中移除时：</p> <ul><li><strong><code>componentWillUnmount()</code></strong> ==&gt; 清除定时器、移除事件监听</li></ul> <h4 id="_1-4、hooks-useeffect"><a href="#_1-4、hooks-useeffect" class="header-anchor">#</a> 1.4、hooks：useEffect</h4> <div class="language-js extra-class"><pre class="language-js"><code><span class="token function">useEffect</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token comment">// ==&gt; componentDidMount + componentDidUpdate 此时用于获取更新后的DOM，不常用</span>
+
+<span class="token function">useEffect</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token comment">// ==&gt; componentDidMount 组件刚挂载，此时操作初始化的DOM、发送请求</span>
+
+<span class="token function">useEffect</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">[</span>count<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token comment">// ==&gt; 类似于watch监听器，监听count变化，并且自带immediate</span>
+
+<span class="token function">useEffect</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span><span class="token punctuation">}</span> <span class="token comment">// ==&gt; componentWillUnmount 组件卸载时执行返回值函数，用于清除定时器、移除事件监听</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+
+<span class="token function">useEffect</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span><span class="token punctuation">}</span> <span class="token comment">// ==&gt; 组件卸载时、count变化时执行返回值函数</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">[</span>count<span class="token punctuation">]</span><span class="token punctuation">)</span>
+
+<span class="token comment">// useEffect的回调函数不能是async ==&gt; 会让该函数的返回值成为promised，最后做清除工作的时候需要获取该回调函数返回值并立即执行，但promise对象的执行时机并不明确</span>
+<span class="token function">useEffect</span><span class="token punctuation">(</span><span class="token keyword">async</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span><span class="token punctuation">{</span><span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><h2 id="_2、关于setstate"><a href="#_2、关于setstate" class="header-anchor">#</a> 2、关于setState</h2> <div class="language-js extra-class"><pre class="language-js"><code>state <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token literal-property property">count</span><span class="token operator">:</span> <span class="token number">0</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// 写法一：不会累积</span>
+<span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">setState</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  <span class="token literal-property property">count</span><span class="token operator">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span>state<span class="token punctuation">.</span>count <span class="token operator">+</span> <span class="token number">1</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">setState</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  <span class="token literal-property property">count</span><span class="token operator">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span>state<span class="token punctuation">.</span>count <span class="token operator">+</span> <span class="token number">1</span> <span class="token comment">// 结果是1</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token comment">// 写法二：会累积（下一次调用就可以拿到上一次调用的结果）</span>
+<span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">setState</span><span class="token punctuation">(</span><span class="token parameter">prevState</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">count</span><span class="token operator">:</span> prevState<span class="token punctuation">.</span>count <span class="token operator">+</span> <span class="token number">1</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">setState</span><span class="token punctuation">(</span><span class="token parameter">prevState</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">count</span><span class="token operator">:</span> prevState<span class="token punctuation">.</span>count <span class="token operator">+</span> <span class="token number">1</span> <span class="token comment">// 结果是2</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">setState</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  <span class="token literal-property property">count</span><span class="token operator">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span>state<span class="token punctuation">.</span>count <span class="token operator">+</span> <span class="token number">1</span> <span class="token comment">// 此时结果是1，写法一会覆盖掉写法二</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">setState</span><span class="token punctuation">(</span><span class="token parameter">prevState</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">count</span><span class="token operator">:</span> prevState<span class="token punctuation">.</span>count <span class="token operator">+</span> <span class="token number">1</span> <span class="token comment">// 此时结果是2，拿到上次调用的值1，再加1</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><h4 id="_2-1、同步or异步"><a href="#_2-1、同步or异步" class="header-anchor">#</a> 2.1、同步or异步</h4> <h5 id="_2-1-1、在正常的react的事件流里-如onclick等"><a href="#_2-1-1、在正常的react的事件流里-如onclick等" class="header-anchor">#</a> 2.1.1、在正常的react的事件流里（如onClick等）</h5> <ul><li><p>setState和useState是异步执行的，本身是同步调用的（不会立即更新state的结果）</p></li> <li><p>多次执行setState和useState，只会调用一次重新渲染render</p></li> <li><p><strong>不同的是，setState会进行state的合并，而useState则不会</strong></p> <div class="language-js extra-class"><pre class="language-js"><code>state <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token literal-property property">user</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">name</span><span class="token operator">:</span> <span class="token string">'jack'</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">setState</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  <span class="token literal-property property">age</span><span class="token operator">:</span> <span class="token number">19</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token comment">// state ==&gt; {user: {…}, age: 19} ==&gt; 第一层浅合并</span>
+
+<span class="token keyword">const</span> <span class="token punctuation">[</span>user<span class="token punctuation">,</span> setUser<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token function">useState</span><span class="token punctuation">(</span><span class="token punctuation">{</span> <span class="token literal-property property">name</span><span class="token operator">:</span> <span class="token string">'jack'</span> <span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token function">setUser</span><span class="token punctuation">(</span><span class="token punctuation">{</span> <span class="token literal-property property">age</span><span class="token operator">:</span> <span class="token number">19</span> <span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token comment">// state ==&gt; {age: 19} ==&gt; z</span>
+</code></pre></div></li></ul> <blockquote><p>react 框架内部有一个表示批量更新的标记 isBatchingUpdates，当我们触发 setState 后，这个标记就被修改为 true，表示批量更新。</p> <p>所以，此时调用 setState 的时候，并不会立即更新状态，而是存储到了一个队列中，将来等到所有的操作都执行完成后，React 就会合并所有的状态更新，一次性的更新状态。</p> <p>最终，将 isBatchingUpdates 标记设置为 false。</p></blockquote> <h5 id="_2-1-2、在settimeout-promise-then等异步事件中"><a href="#_2-1-2、在settimeout-promise-then等异步事件中" class="header-anchor">#</a> 2.1.2、在setTimeout，Promise.then等异步事件中</h5> <ul><li>setState和useState是表现出同步执行（立即更新state的结果）</li> <li>多次执行setState和useState，每一次都会调用一次render</li></ul> <blockquote><p>定时器 是异步代码，定时器中的代码不会被立即执行而是放到了事件队列中，而事件队列中的代码，会在 JS 主线程（同步代码）都执行完成后，再执行。</p> <p>当主线程中的代码执行完成后，React 已经将 isBatchingUpdates 标记设置为 false。此时，再调用 setState()，此时，因为批量合并更新的标记已经是 false</p> <p>所以，React 会调用一次 setState 就立即更新一次状态，并且立即渲染</p></blockquote> <h2 id="_3、小知识"><a href="#_3、小知识" class="header-anchor">#</a> 3、小知识</h2> <p>3.1、函数签名 ==&gt; 函数参数是啥，返回值是啥 ==&gt; (prevState,action) =&gt; newState</p> <p>3.2、纯函数 ==&gt; 相同的输入总是得到相同的输出 ==&gt; reducer是个纯函数且拒绝副作用</p> <p>3.3、const { Provider, Consumer } = createContext() 要写在所有组件外面，Consumer可以设置一个默认值，且生效的时机是没有提供 Provider 时</p> <p>3.4、图片加载错误可在 img 标签上使用 onError={e =&gt; { e.currentTarget.src = avatar }} 设置默认图片</p> <h2 id="_4、关于redux"><a href="#_4、关于redux" class="header-anchor">#</a> 4、关于redux</h2> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> <span class="token function-variable function">increment</span> <span class="token operator">=</span> <span class="token parameter">payload</span> <span class="token operator">=&gt;</span> <span class="token punctuation">(</span><span class="token punctuation">{</span> <span class="token literal-property property">type</span><span class="token operator">:</span> <span class="token string">'increment'</span><span class="token punctuation">,</span> payload <span class="token punctuation">}</span><span class="token punctuation">)</span> <span class="token comment">// ==&gt; action</span>
+
+<span class="token keyword">const</span> <span class="token function-variable function">reducer</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token parameter">state <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">,</span> action</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token comment">// ==&gt; reducer</span>
+  <span class="token keyword">switch</span> <span class="token punctuation">(</span>action<span class="token punctuation">.</span>type<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">case</span> <span class="token string">'increment'</span><span class="token operator">:</span>
+      <span class="token keyword">return</span> state <span class="token operator">+</span> action<span class="token punctuation">.</span>payload
+    <span class="token keyword">default</span><span class="token operator">:</span>
+      <span class="token keyword">return</span> state
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">const</span> store <span class="token operator">=</span> <span class="token function">createStore</span><span class="token punctuation">(</span>reducer<span class="token punctuation">)</span> <span class="token comment">// 此时会调用一次 reducer ==&gt; 作用是设置默认参数</span>
+
+<span class="token keyword">const</span> unSubscribe <span class="token operator">=</span> store<span class="token punctuation">.</span><span class="token function">subscribe</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token comment">// 订阅</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'调用store.dispatch时触发'</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+store<span class="token punctuation">.</span><span class="token function">dispatch</span><span class="token punctuation">(</span><span class="token function">increment</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>store<span class="token punctuation">.</span><span class="token function">getState</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token comment">// 调用store.dispatch时触发 1</span>
+
+<span class="token function">unSubscribe</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token comment">// 取消订阅</span>
+
+store<span class="token punctuation">.</span><span class="token function">dispatch</span><span class="token punctuation">(</span><span class="token function">increment</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>store<span class="token punctuation">.</span><span class="token function">getState</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token comment">// 2</span>
+</code></pre></div><h2 id="_5、打包优化"><a href="#_5、打包优化" class="header-anchor">#</a> 5、打包优化</h2> <blockquote><p>CDN加速 ==&gt; craco.config.js 中生产环境下排除包 ，index.html中生产环境下用script标签获取包链接</p> <p>路由懒加载 ==&gt; import { lazy, Suspense } from 'react'</p> <p>使用dayjs优化antd ==&gt; const AntdDayjsWebpackPlugin = require('antd-dayjs-webpack-plugin')</p> <p>生产环境不启用redux-devtools-extension ==&gt; 通过process.env.NODE_ENV === 'production'控制</p></blockquote> <h1 id="三、ts-react"><a href="#三、ts-react" class="header-anchor">#</a> 三、TS+React</h1> <h2 id="_1、创建项目"><a href="#_1、创建项目" class="header-anchor">#</a> 1、创建项目</h2> <div class="language-bash extra-class"><pre class="language-bash"><code>// TS项目
+npx create-react-app decade --template typescript
+create-react-app decade --template typescript
+
+// JS项目
+npx create-react-app decade
+create-react-app decade
+
+快速下载相关包
+<span class="token function">npm</span> i redux react-redux redux-devtools-extension redux-thunk react-router-dom@5.3.0 react@17.0.2 react-dom@17.0.2 redux-thunk axios sass classnames history@4.10.1
+</code></pre></div></div></section> <footer class="page-edit"><!----> <!----></footer> <!----> <div class="comments-wrapper"><!----></div> <ul class="side-bar sub-sidebar-wrapper" style="width:0;" data-v-cb1513f6></ul></main> <!----></div></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;display:none;" data-v-c6073ba8 data-v-c6073ba8><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-c6073ba8><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-c6073ba8></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-c6073ba8></path></svg></div><canvas id="vuepress-canvas-cursor"></canvas><div></div></div></div>
+    <script src="/assets/js/app.a1a0bd87.js" defer></script><script src="/assets/js/3.47c471e3.js" defer></script><script src="/assets/js/1.67b016ca.js" defer></script><script src="/assets/js/18.f80122c4.js" defer></script>
+  </body>
+</html>
